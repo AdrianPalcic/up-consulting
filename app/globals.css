@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  
+  /*FONTS */
+  --font-playfair: var(--font-playfair-display), serif;
+  --font-inter: var(--font-inter), sans-serif;
+
+    /*COLORS */
+  --color-sec-bg: #171D26;
+  --color-bg: #F0F0F0;
+  --color-accent: #0072DF;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg);
+    margin: 0 auto;
+    max-width:1750px;
+    font-family: var(--font-inter);
+  }
+}
+
+@layer components {
+  .btn {
+    @apply rounded-[30px]  px-4 py-2 bg-(--color-accent) text-[14px] md:text-lg text-white flex items-center gap-3 transition-colors cursor-pointer font-(--font-inter) font-semibold duration-300 transition-colors hover:bg-(--color-accent)/80;
+  }
+  .tag {
+    @apply text-lg font-light uppercase opacity-70 mb-2;
+  }
+  .title {
+    @apply font-playfair text-4xl sm:text-5xl md:text-7xl mb-4 font-medium;
+  }
+  .secondary-tit {
+   @apply font-playfair font-medium text-3xl md:text-5xl max-w-3xl mb-4;
+  }
+  .subtitle {
+    @apply font-inter text-lg max-w-2xl;
+  }
+
+}
