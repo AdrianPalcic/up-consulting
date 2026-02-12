@@ -23,7 +23,7 @@ const FloatingInput = ({ label, type = "text", id }: { label: string, type?: str
 
 const Kontakt = () => {
   return (
-    <section className='px-4 sm:px-12 mt-20'>
+    <section id="kontakt" className='px-4 sm:px-12 mt-20'>
         <div className='flex flex-col lg:flex-row w-full gap-12 lg:gap-24'>
             <div className='flex-1'>
                 <p className='tag mb-4'>KONTAKT</p>
@@ -33,7 +33,7 @@ const Kontakt = () => {
                 <div className='flex flex-col gap-6 mt-8'>
                     <div className='border-l-2 px-4 border-(--color-accent) flex flex-col gap-1'>
                         <p className='text-xs text-gray-500 uppercase tracking-wide'>Telefon</p>
-                        <a href='tel:0957482199' className="font-medium">091 234 5678</a>
+                        <a href='tel:+385915708476' className="font-medium">091 5708 476</a>
                     </div>
                     <div className='border-l-2 px-4 border-(--color-accent) flex flex-col gap-1'>
                         <p className='text-xs text-gray-500 uppercase tracking-wide'>Email</p>
@@ -75,6 +75,12 @@ const Kontakt = () => {
                             className="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-[--color-accent] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 uppercase tracking-wider"
                         >
                             Vaš upit
+                        </label>
+                    </div>
+                    <div className="flex items-center gap-2">
+                        <input type="checkbox" id="gdpr" required className="w-4 h-4" />
+                        <label htmlFor="gdpr" className="text-xs text-gray-600">
+                            Pritiskom na gumb slažem se da UP Consulting obrađuje moje podatke u svrhu odgovora na upit.
                         </label>
                     </div>
 

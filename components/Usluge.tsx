@@ -44,7 +44,7 @@ const Usluge = () => {
   ];
 
   return (
-    <section className='px-4 sm:px-12 mt-20'>
+    <section id="usluge" className='px-4 sm:px-12 mt-20'>
         <div className='flex flex-col md:flex-row w-full gap-1 sm:gap-8 md:gap-16'>
             {/* Lijeva strana */}
             <div className='flex-1'>
@@ -54,7 +54,7 @@ const Usluge = () => {
                 <div className="space-y-4">
                   <p className='text-black/80'>Iako radnici imaju važeće radne dozvole u Hrvatskoj, za legalan rad na njemačkom tržištu moraju proći ovaj poseban administrativni postupak.</p>
                   <p className='text-black/80'>Sam proces uključuje niz koraka – od prikupljanja točne dokumentacije do neprestanog praćenja dostupnosti termina u veleposlanstvu.</p>
-                    <a><button className="btn ">Osigurajte termin <ArrowRight /></button></a>    
+                    <a href="#kontakt"><button className="btn ">Osigurajte termin <ArrowRight /></button></a>    
                 </div>
             
             </div>

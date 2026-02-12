@@ -21,7 +21,7 @@ const Recenzije = () => {
     ]
 
     return (
-        <section className='px-4 sm:px-12 mt-32'>
+        <section id="recenzije" className='px-4 sm:px-12 mt-32'>
             <div>
                 <p className='tag mb-4'>Reference</p>
                 <h1 className="secondary-tit max-w-3xl">Riječi naših klijenata govore više od svega</h1>

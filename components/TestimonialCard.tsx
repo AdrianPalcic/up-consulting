@@ -14,10 +14,9 @@ const TestimonialCard = ({text, title, location}: {text:string, title:string, lo
       {/* Potpis */}
       <div className="flex flex-col self-center justify-end">
         <p className="font-inter text-gray-500 text-sm mt-1">
-          {title}
+          {title}, <span className='font-medium text-black'>{location}</span>
         </p>
         <p className='font-inter text-gray-500 text-sm mt-1'>
-            {location}
         </p>
       </div>
     </div>

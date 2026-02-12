@@ -26,7 +26,7 @@ const industrije = [
                     ))}
                 </div>
                 <div className="space-y-4">
-                    <a><button className="btn ">Zatražite procjenu <ArrowRight /></button></a>    
+                    <a href="#kontakt"><button className="btn ">Zatražite procjenu <ArrowRight /></button></a>    
                 </div>
             </div>
 

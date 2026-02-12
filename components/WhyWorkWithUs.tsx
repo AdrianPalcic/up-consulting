@@ -28,7 +28,7 @@ const WhyWorkWithUs = () => {
                 <h2 className='subtitle mb-6  font-medium'>Dok vi gradite projekte i vodite tim, mi osiguravamo da vaši radnici legalno i na vrijeme stignu na odredište. To je naša ekspertiza.</h2>
                 <div className="space-y-4">
 
-                    <a><button className="btn ">Osigurajte termin <ArrowRight /></button></a>    
+                    <a href="#kontakt"><button className="btn ">Osigurajte termin <ArrowRight /></button></a>    
                 </div>
             
             </div>

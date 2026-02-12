@@ -17,8 +17,8 @@ const Hero = () => {
             Preuzimamo kompletan administrativni postupak dok se vi fokusirate na poslovanje. Brže, jednostavnije, bez stresa.
           </h2>
           <div className="flex items-center flex-wrap gap-4 mt-2">
-            <a><button className="btn flex items-center gap-3">Započnite proces <ArrowRight /></button></a>
-            <a><button className=" px-4 py-2 rounded-[30px] border border-(--color-accent) text-black flex items-center gap-3 cursor-pointer duration-300 transition-colors hover:bg-[#f0f0f0]">Saznajte više </button></a>
+            <a href="#kontakt"><button className="btn flex items-center gap-3">Započnite proces <ArrowRight /></button></a>
+            <a href="#usluge"><button className=" px-4 py-2 rounded-[30px] border border-(--color-accent) text-black flex items-center gap-3 cursor-pointer duration-300 transition-colors hover:bg-[#f0f0f0]">Saznajte više </button></a>
           </div>
         </div>
 

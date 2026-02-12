@@ -30,7 +30,7 @@ const Proces = () => {
     ]
 
     return (
-        <section className='px-4 sm:px-12 mt-16 bg-(--color-sec-bg) py-20 text-white'>
+        <section id="proces" className='px-4 sm:px-12 mt-16 bg-(--color-sec-bg) py-20 text-white'>
             <p className="tag opacity-70 mb-4">Naš proces</p>
             <h1 className="secondary-tit text-3xl md:text-5xl mb-12">Od prve dokumentacije do završetka postupka</h1>
             
