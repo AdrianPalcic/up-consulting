@@ -8,12 +8,10 @@ const Navbar = () => {
       <nav className='mx-auto px-4 sm:px-12 py-4 flex justify-between items-center'>
         
         {/* Logo */}
-        <a href='/' className="relative block w-32 md:w-40">
-          <Image 
+        <a href='/' className="relative block w-20 md:w-25">
+          <img 
             src="/logo.jpeg"
             alt="UP Consulting - Eksperti za Vander Elst vize"
-            width={760} 
-            height={600}
             fetchPriority='high'
             className="w-full h-auto mix-blend-multiply"
           />
