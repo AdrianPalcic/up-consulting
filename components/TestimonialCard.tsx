@@ -2,7 +2,7 @@ import React from 'react'
 
 const TestimonialCard = ({text, title, location}: {text:string, title:string, location:string}) => {
   return (
-    <div className="max-w-md min-h-[300px]  border border-gray-200 rounded-sm p-8 shadow-sm flex flex-col justify-center items-center">
+    <div className="min-w-full md:max-w-md min-h-[300px]  border border-gray-200 rounded-sm p-8 shadow-sm flex flex-col justify-center items-center">
       {/* Citat */}
       <blockquote className="font-playfair text-xl leading-snug text-black mb-8 text-center">
         "{text}"

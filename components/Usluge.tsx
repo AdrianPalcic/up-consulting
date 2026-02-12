@@ -53,7 +53,7 @@ const faqData = [
 
   return (
     <section id="usluge" className='px-4 sm:px-12 mt-20'>
-        <div className='flex flex-col md:flex-row w-full gap-1 sm:gap-8 md:gap-16'>
+        <div className='flex flex-col lg:flex-row w-full gap-1  gap-1 lg:gap-16'>
             {/* Lijeva strana */}
             <div className='flex-1'>
                 <p className='tag mb-4'>O USLUZI</p>

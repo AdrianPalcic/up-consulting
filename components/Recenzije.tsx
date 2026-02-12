@@ -27,9 +27,9 @@ const Recenzije = () => {
                 <h1 className="secondary-tit max-w-3xl">Riječi naših klijenata govore više od svega</h1>
 
                 {/* Responzivni Grid: 1 kolona mobitel, 2 kolone tablet, 3 kolone desktop */}
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 justify-center '>
                     {recenzije.map((r, index) => (
-                        <div key={index} className="h-full">
+                        <div key={index} className="h-full w-full">
                             <TestimonialCard 
                                 text={r.text} 
                                 title={r.title} 

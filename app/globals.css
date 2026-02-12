@@ -1,15 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-  
-  /*FONTS */
+  /* FONTS */
   --font-playfair: var(--font-playfair-display), serif;
   --font-inter: var(--font-inter), sans-serif;
 
-    /*COLORS */
+  /* COLORS */
   --color-sec-bg: #171D26;
   --color-bg: #F0F0F0;
   --color-accent: #0072DF;
+
+  /* BREAKPOINTS - osiguraj da je točna px vrijednost */
+  --breakpoint-mdd: 770px;
 }
 
 @layer base {
