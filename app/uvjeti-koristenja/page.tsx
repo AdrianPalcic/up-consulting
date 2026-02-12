@@ -2,7 +2,7 @@ import React from 'react';
 
 const UvjetiKoristenja = () => {
   return (
-    <main className="max-w-4xl mx-auto px-6 py-20 text-gray-800">
+    <main className="max-w-4xl mx-auto px-6 py-20 text-gray-800 mt-20">
       <h1 className="text-3xl font-bold mb-8 text-[#0066cc]">Uvjeti korištenja</h1>
 
       <section className="space-y-8 text-leading-relaxed">
