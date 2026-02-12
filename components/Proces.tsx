@@ -25,7 +25,7 @@ const Proces = () => {
         {
             id: "05",
             title: "Podrška poslodavcima tijekom cijelog procesa",
-            text: "Pripremamo i temeljito provjeravamo svu potrebnu dokumentaciju, osiguravajući usklađenost s važećim propisima i smanjujući rizik od zastoja ili odbijanja."
+            text: "Pružamo kontinuiranu podršku i individualan pristup svakom slučaju, preuzimajući organizacijski teret kako biste se vi mogli nesmetano fokusirati na svoje poslovanje."
         },
     ]
 
