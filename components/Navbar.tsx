@@ -10,7 +10,7 @@ const Navbar = () => {
         <a href='/' className="logo w-20 md:w-30 h-auto">
           <img 
             src="/logo.jpeg" 
-            alt="UP consulting logo" 
+            alt="Administrativna podrška za Vander Elst vize" 
             className='w-full h-full object-cover mix-blend-multiply' 
           />
         </a>

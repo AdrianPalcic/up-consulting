@@ -10,7 +10,7 @@ const Footer = () => {
         <div className='flex self-start'>
           <img 
             src="/logo.jpeg" 
-            alt="UP Consulting Logo" 
+            alt="Administrativna podrška za Vander Elst vize" 
             className='h-12 w-auto mix-blend-multiply' 
           />
 
