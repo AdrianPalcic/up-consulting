@@ -8,14 +8,15 @@ const Navbar = () => {
       <nav className='mx-auto px-4 sm:px-12 py-4 flex justify-between items-center'>
         
         {/* Logo */}
-        <a href='/' className="logo w-20 md:w-25 h-auto">
+        <a href='/' className="relative block w-32 md:w-40">
           <Image 
-          src="/logo.jpeg"
-           alt="Pomoć pri dobivanju Vander Elst Vize"
-           width={140} // Lighthouse dimenzije
-          height={110}
-          className="h-12 w-auto mix-blend-multiply"
-/>
+            src="/logo.jpeg"
+            alt="UP Consulting - Eksperti za Vander Elst vize"
+            width={760} 
+            height={600}
+            fetchPriority='high'
+            className="w-full h-auto mix-blend-multiply"
+          />
         </a>
 
         {/* Linkovi - Skriveni na mobitelu (hidden), vidljivi od md (flex) */}
