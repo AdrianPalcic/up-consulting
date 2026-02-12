@@ -33,7 +33,7 @@ const Kontakt = () => {
                 <div className='flex flex-col gap-6 mt-8'>
                     <div className='border-l-2 px-4 border-(--color-accent) flex flex-col gap-1'>
                         <p className='text-xs text-gray-500 uppercase tracking-wide'>Telefon</p>
-                        <a href='tel:+385915708476' className="font-medium">091 5708 476</a>
+                        <a href='tel:+385915708476' className="font-medium">+385 91 5708 476</a>
                     </div>
                     <div className='border-l-2 px-4 border-(--color-accent) flex flex-col gap-1'>
                         <p className='text-xs text-gray-500 uppercase tracking-wide'>Email</p>
