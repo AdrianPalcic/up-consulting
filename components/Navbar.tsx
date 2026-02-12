@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav className='mx-auto px-4 sm:px-12 py-4 flex justify-between items-center'>
         
         {/* Logo */}
-        <a href='/' className="logo w-20 md:w-30 h-auto">
+        <a href='/' className="logo w-20 md:w-25 h-auto">
           <img 
             src="/logo.jpeg" 
             alt="Administrativna podrška za Vander Elst vize" 

@@ -44,6 +44,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${playfairDisplay.variable}`}>
+      <link 
+          rel="preload" 
+          as="image" 
+          href="/hero.png" 
+          type="image/png"
+        />
       <body suppressHydrationWarning={true} className="antialiased">
         <Navbar />
         {children}

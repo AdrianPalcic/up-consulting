@@ -1,30 +1,50 @@
-import { ArrowRight } from "lucide-react"
+import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section>
-      <div className="mt-20 relative bg-[url('/hero.png')] w-full h-[80vh] bg-cover bg-center bg-no-repeat flex items-center justify-center">
+    <section className="mt-20  w-full">
+      <div className="relative w-full h-[90vh] flex items-center justify-center overflow-hidden">
+        {/* Next.js Image komponenta optimizirana za Lighthouse */}
+        <Image
+          src="/hero.png"
+          alt="Administrativna podrška za Vander Elst vize i poslovno savjetovanje"
+          fill
+          priority 
+          className="object-cover w-full h-full"
+          sizes="100vw"
+          quality={90}
+        />
         
-        <div className="absolute inset-0 bg-black/10"></div>
+        {/* Overlay - postavljen preko slike, a ispod teksta */}
+        <div className="absolute inset-0 bg-black/10 z-10"></div>
 
-        <div className="relative z-10 text-left px-4 w-full px-4 sm:px-12">
-            <p className="tag"> VAŠ PARTNER ZA NJEMAČKU</p>
-          <h1 className="title">
+        {/* Sadržaj - postavljen iznad overlay-a */}
+        <div className="relative z-20 text-left w-full px-6 sm:px-12">
+          <p className="tag text-black"> VAŠ PARTNER ZA NJEMAČKU</p>
+          <h1 className="title text-black">
             Vander Elst Vize {""} <br/>
             <span className="italic text-(--color-accent)">bez komplikacija</span>
           </h1>
-          <h2 className="subtitle">
+          <h2 className="subtitle text-black/90">
             Preuzimamo kompletan administrativni postupak dok se vi fokusirate na poslovanje. Brže, jednostavnije, bez stresa.
           </h2>
-          <div className="flex items-center flex-wrap gap-4 mt-2">
-            <a href="#kontakt"><button className="btn flex items-center gap-3">Započnite proces <ArrowRight /></button></a>
-            <a href="#usluge"><button className=" px-4 py-2 rounded-[30px] border border-(--color-accent) text-black flex items-center gap-3 cursor-pointer duration-300 transition-colors hover:bg-[#f0f0f0]">Saznajte više </button></a>
+          <div className="flex items-center flex-wrap gap-4 mt-6">
+            <a href="#kontakt">
+              <button className="btn flex items-center gap-3">
+                Započnite proces <ArrowRight />
+              </button>
+            </a>
+            <a href="#usluge">
+              <button className="px-6 py-2.5 rounded-[30px] border border-(--color-accent) bg-white/10 backdrop-blur-sm text-black flex items-center gap-3 cursor-pointer duration-300 transition-colors hover:bg-white/20">
+                Saznajte više
+              </button>
+            </a>
           </div>
         </div>
-
       </div>    
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
