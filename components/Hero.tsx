@@ -7,10 +7,10 @@ const Hero = () => {
       <div className="relative w-full h-[90vh] flex items-center justify-center overflow-hidden">
         {/* Next.js Image komponenta optimizirana za Lighthouse */}
         <Image
-          src="/hero.png"
+          src="/hero.webp"
           alt="Administrativna podrška za Vander Elst vize i poslovno savjetovanje"
           fill
-          priority 
+          fetchPriority="high"
           className="object-cover w-full h-full"
           sizes="100vw"
           quality={90}

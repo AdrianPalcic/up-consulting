@@ -1,5 +1,6 @@
 import React from 'react'
 import { navLinks } from '../constants'
+import Image from 'next/image'
 
 const Navbar = () => {
   return (
@@ -8,11 +9,13 @@ const Navbar = () => {
         
         {/* Logo */}
         <a href='/' className="logo w-20 md:w-25 h-auto">
-          <img 
-            src="/logo.jpeg" 
-            alt="Administrativna podrška za Vander Elst vize" 
-            className='w-full h-full object-cover mix-blend-multiply' 
-          />
+          <Image 
+          src="/logo.jpeg"
+           alt="Pomoć pri dobivanju Vander Elst Vize"
+           width={140} // Lighthouse dimenzije
+          height={110}
+          className="h-12 w-auto mix-blend-multiply"
+/>
         </a>
 
         {/* Linkovi - Skriveni na mobitelu (hidden), vidljivi od md (flex) */}

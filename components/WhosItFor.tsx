@@ -33,7 +33,7 @@ const industrije = [
 
             <div className='self-center lg:self-end mt-24'>
                 <div className='w-full h-auto  sm:h-[760px] sm:w-[572px]'>
-                    <img src="/who.png" alt="Administrativna podrška za Vander Elst vize" className='w-full h-full object-cover max-h-[600px]' />
+                    <img src="/who.webp" alt="Administrativna podrška za Vander Elst vize" className='w-full h-full object-cover max-h-[600px]' />
                 </div>
             </div>
         </div>
