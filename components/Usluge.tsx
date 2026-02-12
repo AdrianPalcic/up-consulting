@@ -28,18 +28,26 @@ const AccordionItem = ({ title, content }: { title: string, content: string }) =
 };
 
 const Usluge = () => {
-  const faqData = [
+const faqData = [
     {
-      title: "Prikupljanje dokumentacije",
-      content: "Provjeravamo sve ugovore o radu, potvrde o prijavi i osiguranju kako bismo bili sigurni da ispunjavate sve kriterije njemačkog veleposlanstva."
+      title: "Tko točno treba Vander Elst vizu?",
+      content: "Vander Elst viza obvezna je za državljane trećih zemalja koje hrvatski poslodavci (tvrtke i obrti) privremeno upućuju na rad u Njemačku. Iako radnici imaju važeće dozvole u Hrvatskoj, ovaj administrativni postupak je ključan za legalan rad na njemačkom tržištu."
     },
     {
-      title: "Zakazivanje termina",
-      content: "Pomažemo vam u navigaciji kroz sustav termina i osiguravamo da se vaša prijava podnese u najkraćem mogućem roku."
+      title: "Koje države i tvrtke pokrivate svojom uslugom?",
+      content: "Usluga je namijenjena hrvatskim poslodavcima koji upućuju radnike na privremeni rad u Njemačku. Pružamo podršku klijentima koji žele pouzdanu administrativnu obradu bez nepotrebnih zastoja, osiguravajući da je svaki slučaj obrađen individualno i u skladu s propisima."
     },
     {
-      title: "Stručna podrška",
-      content: "Naš tim je s vama od prvog razgovora do trenutka kada vaši radnici dobiju odobrenje za rad u Njemačkoj."
+      title: "Možete li nam osigurati termin u veleposlanstvu?",
+      content: "Naša uloga uključuje stalno praćenje dostupnosti termina i organizaciju postupka. Zbog ograničene dostupnosti termina, preuzimamo taj teret na sebe kako bismo maksimalno smanjili mogućnost kašnjenja uzrokovanih administrativnim greškama."
+    },
+    {
+      title: "Što ako nismo sigurni je li naša dokumentacija ispravna?",
+      content: "Nudimo kompletnu administrativnu pripremu i provjeru dokumentacije. Naše iskustvo u radu s Vander Elst postupcima omogućuje nam da uočimo potencijalne nedostatke prije predaje, vodeći proces organizirano i transparentno."
+    },
+    {
+      title: "Kako možemo započeti suradnju?",
+      content: "Najbrži način je izravan telefonski poziv ili e-mail. Nakon osnovnih informacija i provjere mogućnosti suradnje, možemo dogovoriti detaljniji poslovni sastanak putem video poziva, telefonski ili osobno u našem uredu."
     }
   ];
 
