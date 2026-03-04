@@ -21,10 +21,10 @@ const Hero = () => {
 
         {/* Sadržaj - postavljen iznad overlay-a */}
         <div className="relative z-20 text-left w-full px-6 sm:px-12">
-          <p className="tag text-black"> VAŠ PARTNER ZA NJEMAČKU</p>
+          
           <h1 className="title text-black">
             Vander Elst Vize {""} <br/>
-            <span className="italic text-(--color-accent)">bez komplikacija</span>
+            <span className="italic text-(--color-accent)">za rad u Njemačkoj</span>
           </h1>
           <h2 className="subtitle text-black/90">
             Preuzimamo kompletan administrativni postupak dok se vi fokusirate na poslovanje. Brže, jednostavnije, bez stresa.
