@@ -3,6 +3,7 @@ import "./globals.css";
 import { inter, playfairDisplay } from './fonts'
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Script from "next/script";
 
 export const metadata: Metadata = {
  title: "Vander Elst Viza | UP Consulting",
@@ -44,17 +45,34 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${playfairDisplay.variable}`}>
-      <link 
-          rel="preload" 
-          as="image" 
-          href="/hero.png" 
-          type="image/png"
-        />
+      
+       <head>
+    <Script
+      src="https://www.googletagmanager.com/gtag/js?id=AW-18004352296"
+      strategy="afterInteractive"
+    />
+    <Script id="google-ads">
+      {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-18004352296');
+      `}
+    </Script>
+
+    <link 
+      rel="preload" 
+      as="image" 
+      href="/hero.png" 
+      type="image/png"
+    />
+  </head>
       <body suppressHydrationWarning={true} className="antialiased">
         <Navbar />
         {children}
         <Footer />
       </body>
+      
     </html>
   );
 }
