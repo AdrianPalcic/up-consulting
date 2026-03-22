@@ -54,8 +54,8 @@ const Kontakt = () => {
                     {/* --- WEB3FORMS KONFIGURACIJA --- */}
                     <input type="hidden" name="access_key" value="1364eb90-2efe-4367-aa1c-d1b1e3877480" />
                     
-                    {/* REDIRECT NA POČETNU STRANICU */}
-                    <input type="hidden" name="redirect" value="https://up-consulting.hr/" />
+                    {/* REDIRECT NA HVALA STRANICU */}
+                    <input type="hidden" name="redirect" value="https://up-consulting.hr/hvala" />
                     
                     <input type="hidden" name="subject" value="Novi upit s web stranice" />
                     <input type="hidden" name="from_name" value="UP Consulting Kontakt" />
